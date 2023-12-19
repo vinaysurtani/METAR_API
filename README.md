@@ -1,12 +1,13 @@
 # METAR API
 
-This API returns the latest weather information when provided with a specific METAR station code.
+This API returns the latest weather information when provided with a specific METAR station code, which also uses caching with the help of Redis.
 
-## Installation Steps for MacOS
-This readme provides step-by-step instructions to install and run the project on MacOS. Please follow these steps carefully to ensure a smooth installation process.
+## Installation Steps
 
-### 1. Unpack the Project Files
-First, make sure you have downloaded the project files in a `tar.gz` archive. Extract the contents of the archive and navigate to the project folder.
+### 1. Clone the project, and navigate to the project folder.
+```bash
+  git clone https://github.com/vinaysurtani/METAR_API.git
+```
 
 ### 2. Create a Virtual Environment
 To isolate the project dependencies, it's recommended to create a virtual environment. Run the following command to create a new virtual environment named env:
